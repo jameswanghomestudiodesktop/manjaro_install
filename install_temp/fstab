@@ -1,0 +1,7 @@
+/etc/fstab
+# <file system> <mount point> <type> <options> <dump> <pass>
+
+UUID=dc51b5bf-777f-4da2-92ab-7d454913c80e	/	ext4	defaults,noatime	0	1
+UUID=6b6cf725-a29f-4af0-aef9-1a659b33bd4b	swap	swap	defaults,noatime	0	0
+tmpfs	/tmp	tmpfs	defaults,noatime,mode=1777	0	0
+/dev/sda4                   /home/james/Storage/        ext4   defaults,noatime        0       0
