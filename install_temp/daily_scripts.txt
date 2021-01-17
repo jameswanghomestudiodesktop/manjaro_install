@@ -1,0 +1,3 @@
+Ubuntu apt 代理 proxy 设置
+
+sudo apt -o Acquire::http::proxy="http://127.0.0.1:8889/" 
